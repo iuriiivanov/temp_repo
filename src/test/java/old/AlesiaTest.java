@@ -12,11 +12,10 @@ import org.testng.annotations.Test;
 public class AlesiaTest {
     @Test
     public void testMenu() {
-//gkgkgkgkkgkgkkgkkg
+//koirfk
         WebDriver driver = new ChromeDriver();
         driver.get("https://menu-menu.by");
-// skjdgh;dfkjghsfdjkghs;fd
-// s/fdkgn.sdhs;fdlkghs;fdlkgh
+
         try {
             driver.findElement(By.xpath("//input[@type='search']")).sendKeys("плов");
             driver.findElement(By.xpath("//*[@id='search-2']/form/input[2]")).click();
