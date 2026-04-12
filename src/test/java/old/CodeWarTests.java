@@ -20,7 +20,7 @@ public class CodeWarTests {
             WebElement loginButton = driver.findElement(By.xpath("//a[@id='login-btn']"));
             loginButton.click();
             String loginURL = driver.getCurrentUrl();
-//sfdgserhgsdhtsh
+            //kjdd
             Assert.assertEquals(loginURL, "https://www.codewars.com/users/sign_in");
         } finally {
             driver.quit();
