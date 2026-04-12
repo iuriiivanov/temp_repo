@@ -15,7 +15,8 @@ public class AlesiaTest {
 
         WebDriver driver = new ChromeDriver();
         driver.get("https://menu-menu.by");
-
+// skjdgh;dfkjghsfdjkghs;fd
+// s/fdkgn.sdhs;fdlkghs;fdlkgh
         try {
             driver.findElement(By.xpath("//input[@type='search']")).sendKeys("плов");
             driver.findElement(By.xpath("//*[@id='search-2']/form/input[2]")).click();
@@ -23,13 +24,13 @@ public class AlesiaTest {
                     (By.xpath("//*[@id='content']/div/div/div[1]/div[2]/article[1]/div/h2/a"));
 
             Assert.assertEquals(text.getText(), "Плов с уткой");
-        }
-        finally {
+        } finally {
             driver.quit();
         }
     }
+
     @Test
-    public void testMoshe(){
+    public void testMoshe() {
 
         WebDriver driver = new ChromeDriver();
         driver.get("https://moshe.by/");
@@ -42,8 +43,7 @@ public class AlesiaTest {
             WebElement text = driver.findElement(By.xpath("//*[@id='content']/main/header/h1"));
 
             Assert.assertEquals(text.getText(), "Моя учётная запись");
-        }
-        finally {
+        } finally {
             driver.quit();
         }
     }
