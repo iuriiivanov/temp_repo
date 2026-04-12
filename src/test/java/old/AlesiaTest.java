@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class AlesiaTest {
     @Test
     public void testMenu() {
-//koirfk
+
         WebDriver driver = new ChromeDriver();
         driver.get("https://menu-menu.by");
 
@@ -30,7 +30,7 @@ public class AlesiaTest {
 
     @Test
     public void testMoshe() {
-
+// 1234567890~!@#$%^&*()
         WebDriver driver = new ChromeDriver();
         driver.get("https://moshe.by/");
 
