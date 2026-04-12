@@ -10,23 +10,6 @@ import org.testng.annotations.Test;
 
 @Ignore
 public class AlesiaTest {
-    @Test
-    public void testMenu() {
-
-        WebDriver driver = new ChromeDriver();
-        driver.get("https://menu-menu.by");
-
-        try {
-            driver.findElement(By.xpath("//input[@type='search']")).sendKeys("плов");
-            driver.findElement(By.xpath("//*[@id='search-2']/form/input[2]")).click();
-            WebElement text = driver.findElement
-                    (By.xpath("//*[@id='content']/div/div/div[1]/div[2]/article[1]/div/h2/a"));
-
-            Assert.assertEquals(text.getText(), "Плов с уткой");
-        } finally {
-            driver.quit();
-        }
-    }
 
     @Test
     public void testMoshe() {
