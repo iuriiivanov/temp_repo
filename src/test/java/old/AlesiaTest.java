@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class AlesiaTest {
     @Test
     public void testMenu() {
-
+//gkgkgkgkkgkgkkgkkg
         WebDriver driver = new ChromeDriver();
         driver.get("https://menu-menu.by");
 // skjdgh;dfkjghsfdjkghs;fd
