@@ -7,7 +7,7 @@ import school.redrover.common.BaseTest;
 
 public class AddPipelineLexaTest extends BaseTest{
 // 20 apr
-// 2026 year
+// 2026
     //XXI century
     @Test
     public void testNumberOne() {
